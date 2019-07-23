@@ -1,5 +1,5 @@
 
-/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body{
     max-width: 60rem;
     margin: 0 auto;
@@ -7,15 +7,16 @@ body{
 li a {
     display: block;
     text-align: center;
-    padding-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 20px;
     padding-top: 23px;
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;
     color: #ffff;
-    }
-    ul{
+}
+ul{
     list-style-type: none;
     overflow: hidden;
     background-color:#0978FF;
@@ -26,7 +27,8 @@ li a {
 li a:hover {
     background-color:#FFED66;
     color: #0978FF;
-    }
+
+}
 li {
     float: left;
 }
@@ -39,15 +41,12 @@ ul{
     line-height:  1.4rem;
 }
 
-li a:hover {
-    background-color:#FFED66;
-    color: #0978FF;
-    }
+
 li {
     float: left;
 }
 
-    header {
+header {
     background-image: url("../images/pic_2.jpg");
     height: 300px;
     width: cover;
@@ -55,7 +54,7 @@ li {
     font-family: 'Montserrat', sans-serif;
     margin-top: -20px;
     font-size: 1rem;
-    }
+}
 
 
 
@@ -68,7 +67,7 @@ li {
     padding-left: 30px;
     color: #ffff;
     line-height:  1.4rem;
-    }
+}
 .masthead h6{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
@@ -103,43 +102,43 @@ button {
     margin-left: 10px;
     margin-top: 30px;
     line-height:  1.4rem;
-    }
+}
 button:hover{
   color:#FFED66;
   background-color:#0978FF;
 }
 
 footer {
-background-color: #000A18;
-clear: both;
-margin-bottom: 0px;
+    background-color: #000A18;
+    clear: both;
+    margin-bottom: 0px;
 }
 .socialicons{
     display: flex;
-justify-content: center;
-padding-top: 20px;
+    justify-content: center;
+    padding-top: 20px;
 }
 .socialicons a{
     padding: 10px;
     color: #fff;
 }
-    footer p {
+footer p {
     padding-left: 30px;
     color: #ffff;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     line-height:  1.4rem;
     padding-bottom: 30px;
-     font-size: 1rem;
+    font-size: 1rem;
 
-    }
-    .home-content h1{
-        font-family: 'Montserrat', sans-serif;
-        color: #0978FF;
-        font-size: 24px;
-        line-height:  1.4rem;
-         font-size: 1rem;
-    }
+}
+.home-content h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #0978FF;
+    font-size: 24px;
+    line-height:  1.4rem;
+    font-size: 1rem;
+}
 .home-content p{
     width: 100%;
     opacity: .8;
@@ -168,12 +167,12 @@ img{
 /*******************************************************************************
 *******************************************************************************/
 
-  /*All media queries */
-    @media only screen and (max-width: 30rem) {
-   body{
+/*All media queries */
+@media only screen and (max-width: 30rem) {
+ body{
     background-color: blue;
-   }
-   ul {
+}
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -188,10 +187,10 @@ li a {
   text-decoration: none;
 }
 
-    button {
+button {
     margin: 4px 2px;
     font-size: 0.75rem;
-    }
+}
 
     /*li {
     float: none;
@@ -202,20 +201,20 @@ li a {
     padding-left: 1.4rem;
     }*/
     .masthead h1 {
-    text-align: left;
-    padding-left: 2rem;
-    font-size: 0.75rem;
+        text-align: left;
+        padding-left: 2rem;
+        font-size: 0.75rem;
     } 
     footer {
-    font-size: 0.75rem;
-    text-align: left;
+        font-size: 0.75rem;
+        text-align: left;
     }
     img {
         max-width: 100%;
     }
-    }
+}
 
-    @media only screen and (min-width: 30rem) and (max-width: 60rem) {
+@media only screen and (min-width: 30rem) and (max-width: 60rem) {
 
     img {
         float : left;
@@ -224,7 +223,7 @@ li a {
     footer {
         clear: both;
     }
-    }
+}
 
 @media only screen and (min-width: 60rem) {
     body {
@@ -238,4 +237,4 @@ li a {
     footer {
         clear: both;
     }
-    }
+}
